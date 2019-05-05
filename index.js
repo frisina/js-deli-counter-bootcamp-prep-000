@@ -21,4 +21,5 @@ function currentLine(line) {
   for (var i = 1; i < line.length; i++) {
     var text += i + ". " + line[i];
   }
+  return text;
 }
