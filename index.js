@@ -1,3 +1,4 @@
 function takeANumber(currentLine, person) {
-  return "Welcome, Ada. You are " + currentLine.length + "th in line.";
+  currentLine += 1;
+  return "Welcome, Ada. You are number" + currentLine.length + " in line.";
 }
