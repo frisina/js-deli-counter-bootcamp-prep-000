@@ -20,7 +20,7 @@ function currentLine(line) {
   var text = ""
   while (i < line.length) {
       text += i + ". " + line[i];
-      i++
+      i++;
   }
   return text;
 }
