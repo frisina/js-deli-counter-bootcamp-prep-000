@@ -5,5 +5,5 @@ function takeANumber(currentLine, person) {
   var realName = katzDeliLine.splice(katzDeliLine - 1, 1);
 
   console.log(katzDeliLine);
-  return "Welcome, " + realName + ". You are number " + katzDeliline.length + " in line.";
+  return "Welcome, " + realName + ". You are number " + katzDeliLine.length + " in line.";
 }
