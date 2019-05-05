@@ -18,6 +18,6 @@ function nowServing(katzDeliLine) {
 
 function currentLine(katzDeliLine) {
   for (var i = 0; i < katzDeliLine.length; i++) {
-    return "The line is currently:" + katzDeliLine[i];
+    return "The line is currently:" + i + "." + katzDeliLine[i];
   }
 }
