@@ -26,5 +26,5 @@ function currentLine(line) {
     txt += i+1 + ". " + line[i] + ", " ;
     }
 
-  return txt;
+  return txt.slice.slice(0, -1);
   }
