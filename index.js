@@ -1,4 +1,4 @@
-//var katzDeliLine = [];
+var katzDeliLine = [];
 
 function takeANumber(currentLine, person) {
   currentLine = katzDeliLine.length;
