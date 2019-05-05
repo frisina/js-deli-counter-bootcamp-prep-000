@@ -23,4 +23,3 @@ function currentLine(line) {
     }
   return txt;
   }
-}
