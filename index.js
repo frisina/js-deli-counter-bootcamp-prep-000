@@ -1,4 +1,3 @@
-var katzDeliLine = [];
 
 function takeANumber(currentLine, person) {
   katzDeliLine.push(person)
