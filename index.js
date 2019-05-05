@@ -19,13 +19,12 @@ function nowServing(katzDeliLine) {
 
 function currentLine(line) {
   var txt = "The line is currently: ";
-  var newTxt;
   if (line.length === 0) {
     txt = "The line is currently empty."
   }
   for(var i = 0; i < line.length; i++) {
-    newTxt +=txt + i+1 + ". " + line[i] + ", " ;
+    txt += i+1 + ". " + line[i] + ", " ;
     }
 
-  return newTxt;
+  return txt;
   }
