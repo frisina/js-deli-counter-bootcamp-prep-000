@@ -25,5 +25,5 @@ function currentLine(line) {
     txt += i+1 + ". " + line[i] + ", " ;
     }
 
-  return txt.substring(0, txt.length - 1));;
+  return txt.substring(0, txt.length - 1);
   }
