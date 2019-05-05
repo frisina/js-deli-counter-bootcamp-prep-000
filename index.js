@@ -1,6 +1,5 @@
-var katzDeliLine = [];
 
-function takeANumber(currentLine, person) {
+function takeANumber(katzDeliLine, person) {
   currentLine = katzDeliLine.length + 1;
   katzDeliLine.push(person);
 
