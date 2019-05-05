@@ -25,5 +25,5 @@ function currentLine(line) {
     txt += i+1 + ". " + line[i] + ", " ;
     }
 
-  return finalTxt;
+  return txt;
   }
