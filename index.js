@@ -28,7 +28,7 @@ function currentLine(line) {
   return txt;
 }
 
-/*function currentLine(line) {
+function currentLine(line) {
   var txt = "The line is currently: ";
   if (line.length === 0) {
     txt = "The line is currently empty."
