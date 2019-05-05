@@ -23,7 +23,7 @@ function currentLine(line) {
   }
   for(var i = 0; i < line.length; i++) {
     txt += i+1 + ". " + line[i] + ", " ;
-    txt = txt.replace(/,\s*$/, "");
+    txt = txt.slice(0,-1);
     }
 
   return txt;
