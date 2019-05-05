@@ -28,4 +28,3 @@ function currentLine(line) {
   txt += line.length + ". " + line[line.length-1];
   return txt;
   }
-
