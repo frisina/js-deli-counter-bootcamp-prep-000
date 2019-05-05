@@ -6,7 +6,3 @@ function takeANumber(currentLine, person) {
   console.log(katzDeliLine);
   return "Welcome, " + person + ". You are number " + katzDeliLine.length + " in line.";
 }
-
-function nowServing(katzDeliLine.length) {
-
-}
