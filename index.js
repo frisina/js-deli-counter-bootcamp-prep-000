@@ -23,3 +23,4 @@ function currentLine(line) {
       i++
   }
   return text;
+}
