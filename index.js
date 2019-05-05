@@ -24,6 +24,6 @@ function currentLine(line) {
   for(var i = 0; i < line.length; i++) {
     txt += i+1 + ". " + line[i] + ", " ;
     }
-  var finalTxt = txt.slice(0, -1);
+
   return finalTxt;
   }
