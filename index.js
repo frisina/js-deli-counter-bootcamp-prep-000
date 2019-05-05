@@ -1,5 +1,5 @@
 var katzDeliLine = [];
-  
+
 function takeANumber(currentLine, person) {
   katzDeliLine.push(person)
   var realName = katzDeliLine.splice(katzDeliLine - 1, 1)
