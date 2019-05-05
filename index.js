@@ -7,11 +7,11 @@ function takeANumber(katzDeliLine, person) {
 }
 
 function nowServing(katzDeliLine) {
-  for (var i = 0; i = katzDeliLine[0]; i++) {
+  for (var i = 0; i < katzDeliLine[1]; i++) {
   if (katzDeliLine.length === 0) {
     return "There is nobody waiting to be served!"
   } else {
-    return "Currently serving " + katzDeliLine[0] +".";
+    return "Currently serving " + katzDeliLine[i] +".";
   }
   katzDeliLine.shift();
 }
