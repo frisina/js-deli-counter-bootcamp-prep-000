@@ -15,3 +15,9 @@ function nowServing(katzDeliLine) {
     return "Currently serving " + firstName +".";
   }
 }
+
+function currentLine(katzDeliLine) {
+  for (var i = 0; i < katzDeliLine.length; i++) {
+    return "The line is currently:" + katzDeliLine[i];
+  }
+}
