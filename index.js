@@ -3,7 +3,8 @@ var katzDeliLine = [];
 function takeANumber(currentLine, person) {
   katzDeliLine.push(person)
   let lastPerson = katzDeliLine.pop();
-  var count = 0;
+  var count = -1;
+
   for (var i = 0; i < person.length; i++) {
     count++;
   }
