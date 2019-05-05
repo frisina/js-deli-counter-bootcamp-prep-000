@@ -8,4 +8,5 @@ function takeANumber(katzDeliLine, person) {
 
 function nowServing(katzDeliLine) {
   return katzDeliLine.shift();
+
 }
