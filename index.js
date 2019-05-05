@@ -22,6 +22,18 @@ function currentLine(line) {
   if (line.length === 0) {
     txt = "The line is currently empty..."
   }
+  for(var i = 0; i < line.length - 1; i++) {
+    txt += i+1 + ". " + line[i] + ", " ;
+    }
+  txt += line.length + ". " + line[line.length-1];
+  return txt;
+  }
+
+/*function currentLine(line) {
+  var txt = "The line is currently: ";
+  if (line.length === 0) {
+    txt = "The line is currently empty..."
+  }
   for(var i = 0; i < line.length; i++) {
     txt += i+1 + ". " + line[i] + ", " ;
     }
